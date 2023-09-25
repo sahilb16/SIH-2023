@@ -1,0 +1,423 @@
+{
+  "intents": [
+     {
+      "tag": "greeting",
+      "pattern": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+      "response": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+      "context": ""
+    },
+    {
+      "tag": "goodbye",
+      "pattern": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+      "response": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+      "context": ""
+    },
+    {
+      "tag": "thanks",
+      "pattern": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "response": ["My pleasure", "You're Welcome"],
+      "context": ""
+    },
+    {
+      "tag": "query",
+      "pattern": ["What is big bang?"],
+      "response": ["The Big Bang theory is the prevailing cosmological model explaining the existence of the observable universe from the earliest known periods through its subsequent large-scale evolution."],
+      "context": ""
+    },
+    {
+      "tag": "ask_about_contracts_1",
+      "pattern": ["What are the essential elements of a valid contract?"],
+      "response": ["A valid contract requires offer, acceptance, intention, and consideration."]
+    },
+    {
+      "tag": "ask_about_contracts_2",
+      "pattern": ["How can I create a legally binding contract?"],
+      "response": ["A legally binding contract is created through mutual agreement, offer, acceptance, and legal intention."]
+    },
+    {
+      "tag": "ask_about_contracts_3",
+      "pattern": ["What is a contract and its types?"],
+      "response": ["A contract is a legally binding agreement. Types of contracts include written, verbal, and implied contracts."]
+    },
+    {
+      "tag": "ask_about_contracts_4",
+      "pattern": ["What are the terms and conditions for a contract to be valid?"],
+      "response": ["For a contract to be valid, it must have legal purpose, offer, acceptance, capacity, and genuine consent."]
+    },
+    {
+      "tag": "ask_about_legal_rights_1",
+      "pattern": ["What are my legal rights as a consumer?"],
+      "response": ["Consumer rights include safety, information, choice, and the right to be heard. Specific rights may vary based on laws and circumstances."]
+    },
+    {
+      "tag": "ask_about_legal_rights_2",
+      "pattern": ["How can I protect my legal rights as an employee?"],
+      "response": ["To protect your legal rights as an employee, ensure understanding of your employment contract, rights to fair treatment, and access to legal remedies in case of disputes."]
+    },
+    {
+      "tag": "ask_about_legal_rights_3",
+      "pattern": ["What are the rights of tenants in India?"],
+      "response": ["Tenant rights in India pertain to fair treatment, proper eviction processes, maintenance of the premises, and protection from unlawful practices."]
+    },
+    {
+      "tag": "ask_about_legal_rights_4",
+      "pattern": ["Do I have legal rights to appeal a court decision?"],
+      "response": ["Yes, you have legal rights to appeal a court decision within the specified time frame. The process involves submitting an appeal to a higher court."]
+    },
+    {
+      "tag": "inquire_about_intellectual_property_1",
+      "pattern": ["How can I protect my intellectual property?"],
+      "response": ["Protecting intellectual property involves legal processes like patents, trademarks, copyrights, and trade secrets. Consult with a legal professional for proper protection."]
+    },
+    {
+      "tag": "inquire_about_intellectual_property_2",
+      "pattern": ["What are the types of intellectual property rights?"],
+      "response": ["Types of intellectual property rights include patents, trademarks, copyrights, and trade secrets, each offering different forms of protection for creative and innovative works."]
+    },
+    {
+      "tag": "inquire_about_intellectual_property_3",
+      "pattern": ["How to apply for a patent in India?"],
+      "response": ["To apply for a patent in India, follow the legal process set by the Indian Patent Office, including application submission, examination, and grant."]
+    },
+    {
+      "tag": "inquire_about_intellectual_property_4",
+      "pattern": ["What is copyright and how can I secure it?"],
+      "response": ["Copyright is a legal right that grants the creator of an original work exclusive rights for its use and distribution. To secure copyright, register your work with the appropriate authority."]
+    },
+    {
+      "tag": "inquire_about_filing_lawsuit_1",
+      "pattern": ["How do I file a lawsuit in India?"],
+      "response": ["To file a lawsuit in India, consult with a lawyer to understand the legal requirements, draft a complaint, and submit it to the appropriate court with the required fee."]
+    },
+    {
+      "tag": "inquire_about_filing_lawsuit_2",
+      "pattern": ["What is the process for initiating a legal action?"],
+      "response": ["The process for initiating a legal action involves drafting a complaint, filing it in the appropriate court, serving notice to the opposing party, and presenting your case before the court."]
+    },
+    {
+      "tag": "inquire_about_filing_lawsuit_3",
+      "pattern": ["Can you guide me on how to file a consumer complaint?"],
+      "response": ["To file a consumer complaint, gather evidence, approach the appropriate consumer forum, fill the complaint form, and submit it with the required documents and fee."]
+    },
+    {
+      "tag": "inquire_about_filing_lawsuit_4",
+      "pattern": ["Steps for filing a civil lawsuit in Indian courts?"],
+      "response": ["Filing a civil lawsuit involves several steps including filing a plaint, serving summons, presenting evidence, and making legal arguments. Consulting a lawyer is advisable."]
+    },
+    {
+      "tag": "unknown_intent",
+      "patterns": [],
+      "responses": ["I'm sorry, I couldn't understand that question. Please try rephrasing or ask a different legal question."]
+    },
+    {
+      "tag": "ask_about_consumer_rights_1",
+      "pattern": ["What are my rights as a consumer?"],
+      "response": ["Consumers have rights to safety, information, choice, and more."]
+    },
+    {
+      "tag": "ask_about_consumer_rights_2",
+      "pattern": ["How can I file a consumer complaint?"],
+      "response": ["To file a complaint, contact your local consumer forum."]
+    },
+    {
+      "tag": "ask_about_consumer_rights_3",
+      "pattern": ["Consumer protection laws in India"],
+      "response": ["Consumers have rights to safety, information, choice, and more."]
+    },
+    {
+      "tag": "inquire_about_family_law_1",
+      "pattern": ["How is family law structured in India?"],
+      "response": ["Family law in India covers aspects like marriage, divorce, adoption, and inheritance."]
+    },
+    {
+      "tag": "inquire_about_family_law_2",
+      "pattern": ["What are the laws related to marriage and divorce?"],
+      "response": ["Family law in India covers aspects like marriage, divorce, adoption, and inheritance."]
+    },
+    {
+      "tag": "inquire_about_family_law_3",
+      "pattern": ["Family law practices"],
+      "response": ["Family law in India covers aspects like marriage, divorce, adoption, and inheritance."]
+    },
+    {
+      "tag": "inquire_about_property_law_1",
+      "pattern": ["What are the property laws in India?"],
+      "response": ["Indian property laws cover ownership, transfer, and inheritance."]
+    },
+    {
+      "tag": "inquire_about_property_law_2",
+      "pattern": ["How can I transfer property?"],
+      "response": ["Indian property laws cover ownership, transfer, and inheritance."]
+    },
+    {
+      "tag": "inquire_about_property_law_3",
+      "pattern": ["Legal aspects of buying property in India"],
+      "response": ["Indian property laws cover ownership, transfer, and inheritance."]
+    },
+    {
+      "tag": "inquire_about_cyber_law_1",
+      "pattern": ["What are cyber laws in India?"],
+      "response": ["Cyber laws in India aim to regulate online activities and protect against cybercrimes."]
+    },
+    {
+      "tag": "inquire_about_cyber_law_2",
+      "pattern": ["How can I report cybercrime?"],
+      "response": ["Cyber laws in India aim to regulate online activities and protect against cybercrimes."]
+    },
+    {
+      "tag": "inquire_about_cyber_law_3",
+      "pattern": ["Internet regulations in India"],
+      "response": ["Cyber laws in India aim to regulate online activities and protect against cybercrimes."]
+    },
+    {
+      "tag": "inquire_about_tax_law_1",
+      "pattern": ["How are taxes regulated in India?"],
+      "response": ["Tax laws in India cover income tax, GST, customs, and more."]
+    },
+    {
+      "tag": "inquire_about_tax_law_2",
+      "pattern": ["What are the tax obligations?"],
+      "response": ["Tax laws in India cover income tax, GST, customs, and more."]
+    },
+    {
+      "tag": "inquire_about_tax_law_3",
+      "pattern": ["Income tax laws in India"],
+      "response": ["Tax laws in India cover income tax, GST, customs, and more."]
+    },
+    {
+      "tag": "inquire_about_criminal_law_1",
+      "pattern": ["What are the criminal laws in India?"],
+      "response": ["Criminal laws in India cover offenses, penalties, and legal procedures."]
+    },
+    {
+      "tag": "inquire_about_criminal_law_2",
+      "pattern": ["How are crimes classified?"],
+      "response": ["Criminal laws in India cover offenses, penalties, and legal procedures."]
+    },
+    {
+      "tag": "inquire_about_criminal_law_3",
+      "pattern": ["Legal actions for criminal offenses"],
+      "response": ["Criminal laws in India cover offenses, penalties, and legal procedures."]
+    },
+    {
+      "tag": "inquire_about_labor_law_1",
+      "pattern": ["What are the labor laws in India?"],
+      "response": ["Labor laws regulate employment contracts, benefits, disputes, and more. Understanding these laws is vital for employers and employees."]
+    },
+    {
+      "tag": "inquire_about_labor_law_2",
+      "pattern": ["Employee rights and regulations"],
+      "response": ["Labor laws regulate employment contracts, benefits, disputes, and more. Understanding these laws is vital for employers and employees."]
+    },
+    {
+      "tag": "inquire_about_labor_law_3",
+      "pattern": ["How are labor disputes resolved?"],
+      "response": ["Labor laws regulate employment contracts, benefits, disputes, and more. Understanding these laws is vital for employers and employees."]
+    },
+    {
+      "tag": "inquire_about_environmental_law_1",
+      "pattern": ["What are the environmental laws in India?"],
+      "response": ["Environmental laws in India aim to protect the environment. Violations can lead to penalties and legal actions."]
+    },
+    {
+      "tag": "inquire_about_environmental_law_2",
+      "pattern": ["How can I report environmental violations?"],
+      "response": ["Environmental laws in India aim to protect the environment. Violations can lead to penalties and legal actions."]
+    },
+    {
+      "tag": "inquire_about_environmental_law_3",
+      "pattern": ["Air and water pollution regulations"],
+      "response": ["Environmental laws in India aim to protect the environment. Violations can lead to penalties and legal actions."]
+    },
+    {
+      "tag": "inquire_about_immigration_law_1",
+      "pattern": ["What are the immigration laws in India?"],
+      "response": ["Immigration laws in India govern the entry, stay, and exit of foreigners. Compliance with these laws is essential."]
+    },
+    {
+      "tag": "inquire_about_immigration_law_2",
+      "pattern": ["How can I apply for a visa?"],
+      "response": ["Immigration laws in India govern the entry, stay, and exit of foreigners. Compliance with these laws is essential."]
+    },
+    {
+      "tag": "inquire_about_immigration_law_3",
+      "pattern": ["Residence permits in India"],
+      "response": ["Immigration laws in India govern the entry, stay, and exit of foreigners. Compliance with these laws is essential."]
+    },
+    {
+          "tag": "ask_about_human_rights_1",
+          "pattern": ["What are human rights?"],
+          "response": ["Human rights are fundamental rights inherent to all human beings. India has laws to protect and uphold these rights."]
+      },
+      {
+          "tag": "ask_about_human_rights_2",
+          "pattern": ["How are human rights protected in India?"],
+          "response": ["Human rights are fundamental rights inherent to all human beings. India has laws to protect and uphold these rights."]
+      },
+      {
+          "tag": "ask_about_human_rights_3",
+          "pattern": ["Human rights violations"],
+          "response": ["Human rights are fundamental rights inherent to all human beings. India has laws to protect and uphold these rights."]
+      },
+      {
+          "tag": "inquire_about_adr_1",
+          "pattern": ["What is Alternative Dispute Resolution (ADR)?"],
+          "response": ["ADR offers alternatives to litigation for dispute resolution. It includes mediation, arbitration, and negotiation."]
+      },
+      {
+          "tag": "inquire_about_adr_2",
+          "pattern": ["How does ADR work in India?"],
+          "response": ["ADR offers alternatives to litigation for dispute resolution. It includes mediation, arbitration, and negotiation."]
+      },
+      {
+          "tag": "inquire_about_adr_3",
+          "pattern": ["ADR methods"],
+          "response": ["ADR offers alternatives to litigation for dispute resolution. It includes mediation, arbitration, and negotiation."]
+      },
+      {
+          "tag": "inquire_about_banking_law_1",
+          "pattern": ["What are the banking laws in India?"],
+          "response": ["Banking laws govern banking operations and customer rights. Disputes can be addressed through banking ombudsman or consumer forums."]
+      },
+      {
+          "tag": "inquire_about_banking_law_2",
+          "pattern": ["Banking regulations"],
+          "response": ["Banking laws govern banking operations and customer rights. Disputes can be addressed through banking ombudsman or consumer forums."]
+      },
+      {
+          "tag": "inquire_about_banking_law_3",
+          "pattern": ["How are banking disputes resolved?"],
+          "response": ["Banking laws govern banking operations and customer rights. Disputes can be addressed through banking ombudsman or consumer forums."]
+      },
+      {
+          "tag": "inquire_about_insurance_law_1",
+          "pattern": ["What are the insurance laws in India?"],
+          "response": ["Insurance laws in India regulate insurance companies and policies. Claim processes vary based on the type of insurance."]
+      },
+      {
+          "tag": "inquire_about_insurance_law_2",
+          "pattern": ["Regulations for insurance providers"],
+          "response": ["Insurance laws in India regulate insurance companies and policies. Claim processes vary based on the type of insurance."]
+      },
+      {
+          "tag": "inquire_about_insurance_law_3",
+          "pattern": ["Claim processes in insurance"],
+          "response": ["Insurance laws in India regulate insurance companies and policies. Claim processes vary based on the type of insurance."]
+      },
+      {
+          "tag": "ask_about_wills_1",
+          "pattern": ["How can I create a will?"],
+          "response": ["Creating a will involves specifying how you want your assets to be distributed after your death. It's advisable to consult a lawyer for a legally sound will."]
+      },
+      {
+          "tag": "ask_about_wills_2",
+          "pattern": ["What is a legal will?"],
+          "response": ["Creating a will involves specifying how you want your assets to be distributed after your death. It's advisable to consult a lawyer for a legally sound will."]
+      },
+      {
+          "tag": "ask_about_wills_3",
+          "pattern": ["Inheritance laws in India"],
+          "response": ["Creating a will involves specifying how you want your assets to be distributed after your death. It's advisable to consult a lawyer for a legally sound will."]
+      },
+      {
+          "tag": "divorce_laws_1",
+          "pattern": ["What are the divorce laws in India?"],
+          "response": ["Divorce laws in India vary based on personal laws and situations. Grounds for divorce include cruelty, desertion, adultery, and more. Consulting a lawyer is advised for specifics."]
+      },
+      {
+          "tag": "divorce_laws_2",
+          "pattern": ["How does divorce work in India?"],
+          "response": ["Divorce laws in India vary based on personal laws and situations. Grounds for divorce include cruelty, desertion, adultery, and more. Consulting a lawyer is advised for specifics."]
+      },
+      {
+          "tag": "divorce_laws_3",
+          "pattern": ["Legal aspects of divorce"],
+          "response": ["Divorce laws in India vary based on personal laws and situations. Grounds for divorce include cruelty, desertion, adultery, and more. Consulting a lawyer is advised for specifics."]
+      },
+      {
+          "tag": "divorce_laws_4",
+          "pattern": ["Grounds for divorce in India"],
+          "response": ["Divorce laws in India vary based on personal laws and situations. Grounds for divorce include cruelty, desertion, adultery, and more. Consulting a lawyer is advised for specifics."]
+      },
+      {
+          "tag": "corporate_law_1",
+          "pattern": ["What is corporate law?"],
+          "response": ["Corporate law involves legal aspects related to the formation, operation, and dissolution of a company. It covers areas like contracts, compliance, governance, mergers, and more."]
+      },
+      {
+          "tag": "corporate_law_2",
+          "pattern": ["Legal aspects of running a company"],
+          "response": ["Corporate law involves legal aspects related to the formation, operation, and dissolution of a company. It covers areas like contracts, compliance, governance, mergers, and more."]
+      },
+      {
+          "tag": "corporate_law_3",
+          "pattern": ["Corporate governance regulations"],
+          "response": ["Corporate law involves legal aspects related to the formation, operation, and dissolution of a company. It covers areas like contracts, compliance, governance, mergers, and more."]
+      },
+      {
+          "tag": "corporate_law_4",
+          "pattern": ["How to start a company in India"],
+          "response": ["Corporate law involves legal aspects related to the formation, operation, and dissolution of a company. It covers areas like contracts, compliance, governance, mergers, and more."]
+      },
+      {
+          "tag": "commercial_law_1",
+          "pattern": ["What is commercial law?"],
+          "response": ["Commercial law deals with legal aspects of business transactions, contracts, compliance, and more in the commercial sector."]
+      },
+      {
+          "tag": "commercial_law_2",
+          "pattern": ["Laws related to commercial contracts"],
+          "response": ["Commercial law deals with legal aspects of business transactions, contracts, compliance, and more in the commercial sector."]
+      },
+      {
+          "tag": "commercial_law_3",
+          "pattern": ["Legal aspects of business transactions"],
+          "response": ["Commercial law deals with legal aspects of business transactions, contracts, compliance, and more in the commercial sector."]
+      },
+      {
+          "tag": "commercial_law_4",
+          "pattern": ["Corporate compliance requirements"],
+          "response": ["Commercial law deals with legal aspects of business transactions, contracts, compliance, and more in the commercial sector."]
+      },
+      {
+          "tag": "civil_rights_1",
+          "pattern": ["What are civil rights?"],
+          "response": ["Civil rights encompass the basic rights and freedoms that protect individuals from discrimination based on race, gender, religion, etc."]
+      },
+      {
+          "tag": "civil_rights_2",
+          "pattern": ["Civil rights protection in India"],
+          "response": ["Civil rights encompass the basic rights and freedoms that protect individuals from discrimination based on race, gender, religion, etc."]
+      },
+      {
+          "tag": "civil_rights_3",
+          "pattern": ["Civil liberties"],
+          "response": ["Civil rights encompass the basic rights and freedoms that protect individuals from discrimination based on race, gender, religion, etc."]
+      },
+      {
+          "tag": "civil_rights_4",
+          "pattern": ["Civil rights movements"],
+          "response": ["Civil rights encompass the basic rights and freedoms that protect individuals from discrimination based on race, gender, religion, etc."]
+      },
+      {
+          "tag": "technology_law_1",
+          "pattern": ["What are technology laws in India?"],
+          "response": ["Technology laws in India encompass legal aspects related to the use of technology, cybersecurity, data privacy, and more."]
+      },
+      {
+          "tag": "technology_law_2",
+          "pattern": ["Legal aspects of using technology"],
+          "response": ["Technology laws in India encompass legal aspects related to the use of technology, cybersecurity, data privacy, and more."]
+      },
+      {
+          "tag": "technology_law_3",
+          "pattern": ["Cybersecurity regulations"],
+          "response": ["Technology laws in India encompass legal aspects related to the use of technology, cybersecurity, data privacy, and more."]
+      },
+      {
+          "tag": "technology_law_4",
+          "pattern": ["Data privacy laws"],
+          "response": ["Technology laws in India encompass legal aspects related to the use of technology, cybersecurity, data privacy, and more."]
+      }
+  ]
+}
