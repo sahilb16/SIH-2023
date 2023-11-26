@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--    <link rel="stylesheet" href="filee.css">-->
+    <link rel="stylesheet" href="/static/updatedcss.css">
+
+    <script src="chat.js"></script>
+
+
+    <title>Legal_Lingo</title>
+</head>
+
+<body>
+    <div id="container">
+        <header id="we">
+            <div id="header-logo">
+                <img src="/static/Legal Lingo.png" alt="legal_lingo logo">
+                <h4>
+                    With the <br><span style="font-size: larger;"> कायदा आणि <br>
+                        न्याय मंत्रालयासह </span>
+                </h4>
+            </div>
+            <div id="header-wrapper">
+                <a href="{{ url_for('homepage') }}">होम</a>
+                <a href="/aboutus/{{list[6]}}/{{list}}">आमच्याबद्दल</a>
+                <a href="/init/{{list[6]}}/{{list}}">पुढाकार</a>
+                <a href="#">संपर्क साधा</a>
+            </div>
+        </header>
+        <main>
+            <hr>
+            <hr>
+            <div id="main-wrapper">
+                <!-- <div id="main-innerwrapper1"></div>
+                <div id="main-innerwrapper2"></div> -->
+                <!--                <img src="../Pictures/gavel.jpg" alt="gavel photo">-->
+                <div id="main-content-wrapper">
+                    <h1 id="he">पुढाकार</h1>
+                    <p id="a">आमचा पुढाकार कायदेशीर जागरूकता आणि प्रवेशयोग्यतेचा प्रचार करण्याच्या उत्कटतेने चालतो
+                    सर्व व्यक्ती आणि व्यवसाय
+                    भारतात. सारख्या क्षेत्रांसह भारतीय कायद्यांच्या जटिल वेबवर नेव्हिगेट करणे हे आम्हाला समजते
+                    कामगार आणि कॉर्पोरेट कायदे,
+                    एक कठीण काम असू शकते. आमची प्राथमिक प्रेरणा कायदेशीर गुंतागुंत सुलभ करणे, कायदेशीर वाढवणे आहे
+                    साक्षरता आणि सक्षमीकरण
+                    व्यावहारिक ज्ञान असलेले वापरकर्ते. आमचा ठाम विश्वास आहे की सुप्रसिद्ध व्यक्ती आणि व्यवसाय
+                    चांगले सुसज्ज आहेत
+                    त्यांच्या अधिकारांचे रक्षण करा आणि माहितीपूर्ण निर्णय घ्या.
+                    </p>
+                    <p id="a">
+                    एखाद्या कर्मचाऱ्याचा विचार करा ज्याला त्याच्या/तिच्या हक्कांबद्दल आणि कामावरील फायद्यांबद्दल चिंता आहे. आमचा चॅटबॉट
+                    तपशीलवार प्रदान करते
+                    किमान वेतन, कामाचे तास आणि रजा यासारख्या पैलूंसह कामगार कायद्यांबद्दल स्पष्टीकरण
+                    धोरणे
+                    </p>
+                    <p id="a">
+                    एखाद्या उद्योजकाची कल्पना करा जो व्यवसाय स्थापन करण्यास उत्सुक आहे परंतु गुंतागुंतीमुळे भारावून गेला आहे
+                    च्या लँडस्केप
+                    कॉर्पोरेट कायदे. आमचा चॅटबॉट मार्गदर्शक म्हणून काम करेल, याचे चरण-दर-चरण स्पष्टीकरण प्रदान करेल
+                    व्यवसाय नोंदणी प्रक्रिया,
+                    अनुपालन आवश्यकता आणि कर आकारणी प्रक्रिया. परिणामी, उद्योजक यशस्वीपणे करू शकतो
+                    त्याचा/तिचा व्यवसाय सुरू करा
+                    सर्व कायदेशीर आदेशांचे पालन करताना
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <hr>
+            <hr>
+            <div id="footer-wrapper">
+                <img src="/static/L2.png" alt="Legal_Lingo logo">
+                <h4>वेबसाइट मालकीची आहे आणि सामग्री LEGALLINGO द्वारे व्यवस्थापित केली जाते <span
+                        style="color: rgb(186, 186, 186); font-size: larger;">|</span><br> हा प्रकल्प स्मार्ट इंडिया हॅकाथॉन पोर्टल वर <br>
+                    कायदा आणि न्याय मंत्रालयाने पोस्ट केला होता</h5>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

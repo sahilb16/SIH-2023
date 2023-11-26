@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--    <link rel="stylesheet" href="filee.css">-->
+    <link rel="stylesheet" href="/static/updatedcss.css">
+
+    <script src="chat.js"></script>
+
+
+    <title>Legal_Lingo</title>
+</head>
+
+<body>
+    <div id="container">
+        <header id="we">
+            <div id="header-logo">
+                <img src="/static/Legal Lingo.png" alt="legal_lingo logo">
+                <h4>
+                    <span style="font-size: larger;"> कानून एवं <br> न्याय मंत्रालय <br>के जरिए</span>
+                </h4>
+            </div>
+            <div id="header-wrapper">
+                <a href="{{ url_for('homepage') }}">होम</a>
+                <a href="/aboutus/{{list[6]}}/{{list}}">हमारे बारे में</a>
+                <a href="/init/{{list[6]}}/{{list}}">पहल</a>
+                <a href="#">संपर्क</a>
+            </div>
+        </header>
+        <main>
+            <hr>
+            <hr>
+            <div id="main-wrapper">
+                <!-- <div id="main-innerwrapper1"></div>
+                <div id="main-innerwrapper2"></div> -->
+                <!--                <img src="../Pictures/gavel.jpg" alt="gavel photo">-->
+                <div id="main-content-wrapper">
+                    <h1 id="he">हमारे बारे में</h1>
+                    <p id="a">भारत में कानूनी ज्ञान के लिए आपके विश्वसनीय स्रोत, लीगललिंगो में आपका स्वागत है। हमारा मिशन है
+                        जटिल कानूनी अवधारणाओं को सरल बनाएं और भारतीय कानूनों के बारे में आपके प्रश्नों के तुरंत उत्तर प्रदान करें
+                        और लेख. कानूनी विशेषज्ञों और नवीन चैटबॉट प्रौद्योगिकी की हमारी समर्पित टीम काम करती है
+                        सटीक, सुलभ और उपयोगकर्ता के अनुकूल कानूनी जानकारी प्रदान करने के लिए। एक प्रतिबद्धता के साथ
+                        गोपनीयता और डेटा सुरक्षा के लिए, हम व्यक्तियों को उनके अधिकारों को समझने और बनाने के लिए सशक्त बनाते हैं
+                        सूचित निर्णय। हमारे बहुभाषी मंच का अन्वेषण करें और हमें नेविगेट करने में अपना मार्गदर्शक बनने दें
+                        भारतीय कानून की जटिल दुनिया. हमें अपने कानूनी संसाधन के रूप में चुनने के लिए धन्यवाद
+                    </p>
+                    <!--                    <div id="chat-btn" class="chat-btn">-->
+                    <!--                        <button class="chatbtn" type="button" id="chatbtn">Chat</button>-->
+                    <!--                    </div>-->
+                </div>
+            </div>
+        </main>
+        <footer>
+            <hr>
+            <hr>
+            <div id="footer-wrapper">
+                <img src="/static/L2.png" alt="Legal_Lingo logo">
+                <h4>प्रतीक चिन्ह
+                वेबसाइट का स्वामित्व और सामग्री लीगल लिंगो द्वारा प्रबंधित है <span
+                        style="color: rgb(186, 186, 186); font-size: larger;">|</span> <br>यह परियोजना कानून और न्याय मंत्रालय द्वारा <br>स्मार्ट इंडिया हैकथॉन पोर्टल पर पोस्ट की गई थी</h4>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

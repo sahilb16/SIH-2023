@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--    <link rel="stylesheet" href="filee.css">-->
+    <link rel="stylesheet" href="/static/updatedcss.css">
+
+    <script src="chat.js"></script>
+
+
+    <title>Legal_Lingo</title>
+</head>
+
+<body>
+    <div id="container">
+        <header id="we">
+            <div id="header-logo">
+                <img src="/static/Legal Lingo.png" alt="legal_lingo logo">
+                <h4>
+                    <span style="font-size: larger;"> કાયદા અને<br> ન્યાય મંત્રાલય સાથે</span>
+                </h4>
+            </div>
+            <div id="header-wrapper">
+                <a href="{{ url_for('homepage') }}">હોમ</a>
+                <a href="/aboutus/{{list[6]}}/{{list}}">અમારા વિશે</a>
+                <a href="/init/{{list[6]}}/{{list}}">પહેલ</a>
+                <a href="#">અમારો સંપર્ક કરો</a>
+            </div>
+        </header>
+        <main>
+            <hr>
+            <hr>
+            <div id="main-wrapper">
+                <!-- <div id="main-innerwrapper1"></div>
+                <div id="main-innerwrapper2"></div> -->
+                <!--                <img src="../Pictures/gavel.jpg" alt="gavel photo">-->
+                <div id="main-content-wrapper">
+                    <h1 id="he">પહેલ</h1>
+                    <p id="a">અમારી પહેલ કાનૂની જાગૃતિ અને સુલભતાને પ્રોત્સાહન આપવાના જુસ્સાથી પ્રેરિત છે
+                        ભારતમાં તમામ વ્યક્તિઓ અને વ્યવસાયો. અમે સમજીએ છીએ કે ભારતીય કાયદાઓના જટિલ વેબ પર નેવિગેટ કરવું, જેવા ક્ષેત્રો સહિત
+                        શ્રમ અને કોર્પોરેટ કાયદાઓ, એક મુશ્કેલ કાર્ય હોઈ શકે છે. અમારી પ્રાથમિક પ્રેરણા કાનૂની જટિલતાઓને સરળ બનાવવા, કાનૂનીને
+                        પ્રોત્સાહન આપવાની છે
+                        સાક્ષરતા, અને વ્યવહારુ જ્ઞાન સાથે વપરાશકર્તાઓને સશક્તિકરણ. અમે નિશ્ચિતપણે માનીએ છીએ કે સારી રીતે જાણકાર વ્યક્તિઓ અને
+                        વ્યવસાયો
+                        તેમના અધિકારોનું રક્ષણ કરવા અને જાણકાર નિર્ણયો લેવા માટે વધુ સારી રીતે સજ્જ છે.
+                    </p>
+                    <p id="a">
+                        એવા કર્મચારીને ધ્યાનમાં લો કે જેને કામ પર તેના/તેણીના અધિકારો અને લાભો વિશે ચિંતા હોય. અમારો ચેટબોટ
+                        લઘુત્તમ વેતન, કામના કલાકો અને રજા જેવા પાસાઓ સહિત શ્રમ કાયદાઓ વિશે વિગતવાર સમજૂતી આપે છે
+                        નીતિઓ
+                    </p>
+                    <p id="a">
+                        એવા ઉદ્યોગસાહસિકની કલ્પના કરો જે વ્યવસાય સ્થાપવા માટે ઉત્સુક હોય પરંતુ જટિલ બાબતોથી અભિભૂત હોય
+                        કોર્પોરેટ કાયદાઓનું લેન્ડસ્કેપ. અમારું ચેટબોટ માર્ગદર્શિકા તરીકે સેવા આપશે, જેનું પગલું-દર-પગલાં સ્પષ્ટીકરણ પ્રદાન કરશે
+                        વ્યવસાય નોંધણી પ્રક્રિયાઓ, અનુપાલન આવશ્યકતાઓ અને કરવેરા પ્રક્રિયાઓ. પરિણામે, ઉદ્યોગસાહસિક સફળતાપૂર્વક કરી શકે છે
+                        તમામ કાયદાકીય આદેશોનું પાલન કરતી વખતે તેનો/તેણીનો વ્યવસાય શરૂ કરો.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <hr>
+            <hr>
+            <div id="footer-wrapper">
+                <img src="/static/L2.png" alt="Legal_Lingo logo">
+                <h4>વેબસાઈટની માલિકી છે અને કન્ટેન્ટ લીગલ લિન્ગો દ્વારા સંચાલિત છે <span
+                    style="color: rgb(186, 186, 186); font-size: larger;">|</span> <br> આ પ્રોજેક્ટ પર પોસ્ટ કરવામાં આવી હતી
+                 સ્માર્ટ ઈન્ડિયા હેકાથોન પોર્ટલ<br> કાયદા અને ન્યાય મંત્રાલય દ્વારા</h4>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

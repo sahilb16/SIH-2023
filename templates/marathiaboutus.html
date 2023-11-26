@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--    <link rel="stylesheet" href="filee.css">-->
+    <link rel="stylesheet" href="/static/updatedcss.css">
+
+    <script src="chat.css"></script>
+
+
+    <title>Legal_Lingo</title>
+</head>
+
+<body>
+    <div id="container">
+        <header id="we">
+            <div id="header-logo">
+                <img src="/static/Legal Lingo.png" alt="legal_lingo logo">
+                <h4>
+                    <span style="font-size: larger;"> कायदा आणि <br> न्याय मंत्रालय</span>
+                </h4>
+            </div>
+            <div id="header-wrapper">
+                <a href="{{ url_for('homepage') }}">होम</a>
+                <a href="/aboutus/{{list[6]}}/{{list}}">आमच्याबद्दल</a>
+                <a href="/init/{{list[6]}}/{{list}}">पुढाकार</a>
+                <a href="#">संपर्क साधा</a>
+            </div>
+        </header>
+        <main>
+            <hr>
+            <hr>
+            <div id="main-wrapper">
+                <!-- <div id="main-innerwrapper1"></div>
+                <div id="main-innerwrapper2"></div> -->
+                <!--                <img src="../Pictures/gavel.jpg" alt="gavel photo">-->
+                <div id="main-content-wrapper">
+                    <h1 id="he">आमच्याबद्दल</h1>
+                    <p id="a">LegalLingo मध्ये आपले स्वागत आहे, भारतातील कायदेशीर ज्ञानाचा तुमचा विश्वसनीय स्रोत. आमचे ध्येय आहे
+                    जटिल कायदेशीर संकल्पना सुलभ करा आणि भारतीय कायद्यांबद्दलच्या तुमच्या प्रश्नांची झटपट उत्तरे द्या
+                    आणि लेख. कायदेशीर तज्ञांची आमची समर्पित टीम आणि नाविन्यपूर्ण चॅटबॉट तंत्रज्ञान कार्य करते
+                    अचूक, प्रवेशयोग्य आणि वापरकर्ता-अनुकूल कायदेशीर माहिती वितरीत करण्यासाठी एकत्र. वचनबद्धतेने
+                    गोपनीयता आणि डेटा सुरक्षेसाठी, आम्ही व्यक्तींना त्यांचे अधिकार समजून घेण्यास आणि बनविण्यास सक्षम करतो
+                    माहितीपूर्ण निर्णय. आमचे बहुभाषिक प्लॅटफॉर्म एक्सप्लोर करा आणि आम्हाला नेव्हिगेट करण्यात तुमचे मार्गदर्शक होऊ द्या
+                    भारतीय कायद्याचे गुंतागुंतीचे जग. तुमचा कायदेशीर स्रोत म्हणून आम्हाला निवडल्याबद्दल धन्यवाद
+                    </p>
+                    <!--                    <div id="chat-btn" class="chat-btn">-->
+                    <!--                        <button class="chatbtn" type="button" id="chatbtn">Chat</button>-->
+                    <!--                    </div>-->
+                </div>
+            </div>
+        </main>
+        <footer>
+            <hr>
+            <hr>
+            <div id="footer-wrapper">
+                <img src="/static/L2.png" alt="Legal_Lingo logo">
+                <h4>वेबसाइट मालकीची आहे आणि सामग्री LEGALLINGO द्वारे व्यवस्थापित केली जाते <span
+                        style="color: rgb(186, 186, 186); font-size: larger;">|</span><br>हा प्रकल्प स्मार्ट इंडिया हॅकाथॉन पोर्टल वर <br> कायदा आणि न्याय मंत्रालयाने पोस्ट केला होता</h4>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

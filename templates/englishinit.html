@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--    <link rel="stylesheet" href="filee.css">-->
+    <link rel="stylesheet" href="/static/updatedcss.css">
+
+    <script src="chat.js"></script>
+
+
+    <title>Legal_Lingo</title>
+</head>
+
+<body>
+    <div id="container">
+        <header id="we">
+            <div id="header-logo">
+                <img src="/static/Legal Lingo.png" alt="legal_lingo logo">
+                <h4>
+                    With the <br><span style="font-size: larger;"> MINISTRY OF <br> LAW & JUSTICE </span>
+                </h4>
+            </div>
+            <div id="header-wrapper">
+                <a href="{{ url_for('homepage') }}">Home</a>
+                <a href="/aboutus/{{list[6]}}/{{list}}">About Us</a>
+                <a href="/init/{{list[6]}}/{{list}}">Initiative</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </header>
+        <main>
+            <hr>
+            <hr>
+            <div id="main-wrapper">
+                <!-- <div id="main-innerwrapper1"></div>
+                <div id="main-innerwrapper2"></div> -->
+                <!--                <img src="../Pictures/gavel.jpg" alt="gavel photo">-->
+                <div id="main-content-wrapper">
+                    <h1 id="he">Initiative</h1>
+                    <p id="a">Our initiative is driven by the passion to promote legal awareness and accessibility for all individuals and businesses
+                    in India. We understand that navigating the complex web of Indian laws, including areas like labor and corporate laws,
+                    can be a daunting task. Our primary motivation is to simplify legal complexities, foster legal literacy, and empower
+                    users with practical knowledge. We firmly believe that well-informed individuals and businesses are better equipped to
+                    protect their rights and make informed decisions.
+                    </p>
+                    <p id="a">
+                        Consider an employee who has concerns about his/her rights and benefits at work. Our chatbot provides detailed
+                        explanations about labor laws, including aspects such as minimum wages, working hours, and leave policies. 
+                    </p>
+                    <p id="a">
+                        Imagine an entrepreneur who is eager to establish a business but is overwhelmed by the intricate landscape of
+                        corporate laws. Our chatbot shall serve as a guide, providing step-by-step explanations of business registration processes,
+                        compliance requirements, and taxation procedures. As a result, the entrepreneur can successfully launch his/her business
+                        while adhering to all legal mandates.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <hr>
+            <hr>
+            <div id="footer-wrapper">
+                <img src="/static/L2.png" alt="Legal_Lingo logo">
+                <h4>Website is Owned and Content Managed by LEGAL LINGO <span
+                        style="color: rgb(186, 186, 186); font-size: larger;">|</span> <br> This project was posted on
+                    the Smart India Hackathon portal <br> by The MINISTRY Of LAW & JUSTICE</h4>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

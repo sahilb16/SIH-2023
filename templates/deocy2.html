@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Options</title>
+</head>
+<body>
+    
+    <p>Enter the prompt !</p>
+    <button id="callFlaskButton">Call Flask Function</button>
+   
+    <p>Answer ...</p>
+    <p>{{ answer }}</p>
+    <script>
+        
+        document.getElementById('callFlaskButton').addEventListener('click', function() {
+            fetch('/speechtext') // Replace with your Flask route URL
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data.message); // Handle the response data as needed
+                    alert(data.message); // You can also display it in an alert
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        });
+   
+    </script>
+</body>
+</html>
