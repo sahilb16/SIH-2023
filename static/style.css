@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgba(15, 19, 24);
+    /* rgb(26, 30, 36); */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    /* background-color: rgb(107, 138, 184); */
+    background-color: rgb(107, 93, 76);
+    display: flex;
+    justify-content: space-around;
+    gap: 0rem;
+    align-items: center;
+    padding: 0.8rem 0;
+}
+#header-logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#header-logo>img{
+    width: 8rem;
+}
+#header-logo>h4{
+    color: rgba(16, 16, 16, 0.905);
+    
+    font-size: 1.3rem;
+    /* font-weight: 900; */
+}
+header a{
+    font-size: 1.75rem;
+    text-decoration: none;
+    color: rgba(28, 28, 29, 0.905);
+    text-shadow: 0.1rem 0.1rem rgb(179, 172, 172);
+    font-weight: 600;
+}
+#header-wrapper{
+    display: flex;
+    color:blanchedalmond;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+#main-wrapper{
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    font-size: 1.7rem;
+    margin: 0 1.3rem;
+    padding: 1.95rem 0;
+    gap: 1.7rem;
+}
+#main-wrapper>img{
+    width: 95rem;
+}
+#main-content-wrapper{
+    width: 60rem;
+}
+#main-content-wrapper>h1{
+    color: rgb(195, 177, 152);
+    text-shadow: 0.17rem 0 rgb(119, 93, 61);
+    font-size: 3em;
+    text-align: center;
+}
+#main-content-wrapper>p{
+    padding: 1.5rem 0;
+    color: rgb(139, 117, 101);
+    font-size: 1em;
+    text-align: center;
+}
+.chat-btn{
+    display: flex;
+    justify-content: center;
+    padding: 0.2rem 0;
+}
+.chatbtn{
+    background-color: rgb(68, 45, 19);
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: rgb(199, 178, 152);
+    font-family:  'Times New Roman', Times, serif, 'Gill Sans', 'Gill Sans MT', Georgia, 'Trebuchet MS', sans-serif;
+    border: 0.1rem solid rgb(179, 155, 136);
+    transition: all 0.2s ease;
+}
+#footer-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    color: rgb(53, 35, 15);
+    gap: 5rem;
+    background-color: rgb(107, 93, 76);
+    padding-top: 1rem;
+}
+#footer-wrapper>img{
+    width: 4.5rem;
+    border-radius: 5rem;
+}
+.chatbtn:hover{
+    cursor: pointer;
+    box-shadow: 0.08rem 0.08rem rgb(250, 234, 210);
+}
+
+#recbtn:active{
+    color: red;
+}
+
